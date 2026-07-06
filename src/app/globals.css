@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #14201a;
+  --color-forest: #1b2b22;
+  --color-forest-light: #2a3d30;
+  --color-cream: #f4f1ea;
+  --color-paper: #fbfaf7;
+  --color-mist: #e4e6dd;
+  --color-stone: #6b6459;
+  --color-brass: #b08d57;
+  --color-brass-light: #d8bd8b;
+  --color-brass-dark: #8a6b3d;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-forest: var(--color-forest);
+  --color-forest-light: var(--color-forest-light);
+  --color-cream: var(--color-cream);
+  --color-paper: var(--color-paper);
+  --color-mist: var(--color-mist);
+  --color-stone: var(--color-stone);
+  --color-brass: var(--color-brass);
+  --color-brass-light: var(--color-brass-light);
+  --color-brass-dark: var(--color-brass-dark);
+
+  --font-display: var(--font-manrope);
+  --font-body: var(--font-inter);
+}
+
+html {
+  /*
+   * Intentionally NOT smooth: the pinned/sticky "So arbeiten wir" section is
+   * ~5-6 viewport heights tall, and animating a smooth scroll through it
+   * makes the page look frozen for several seconds (the sticky element stays
+   * visually still while scrollY crawls through that range). Instant jumps
+   * are the reliable choice for anchor navigation on this layout.
+   */
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-paper);
+}
+
+.eyebrow {
+  font-family: var(--font-body), system-ui, sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
