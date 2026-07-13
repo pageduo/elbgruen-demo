@@ -12,7 +12,7 @@ export default function AboutContact() {
         <Reveal>
           <p className="eyebrow text-brass-dark">// Über uns & Kontakt</p>
           <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-ink sm:text-5xl">
-            {company.fullName} — seit {company.founded} in Hamburg verwurzelt.
+            {company.fullName}, seit {company.founded} in Hamburg verwurzelt.
           </h2>
         </Reveal>
 

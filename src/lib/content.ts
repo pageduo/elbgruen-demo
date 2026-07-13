@@ -6,7 +6,7 @@ export const company = {
   claim: "Gärten mit Haltung.",
   subline:
     "Landschaftsarchitektur und Gartenbau für anspruchsvolle Privat- und Gewerbeflächen in Hamburg und Umgebung.",
-  usp: "Planung und Ausführung aus einer Hand — von der ersten Skizze bis zur letzten Pflanze.",
+  usp: "Planung und Ausführung aus einer Hand, von der ersten Skizze bis zur letzten Pflanze.",
   phone: "+49 40 736 214 80",
   phoneHref: "tel:+494073621480",
   email: "atelier@elbgruen-demo.de",
@@ -51,7 +51,7 @@ export const services = [
     key: "planung",
     title: "Gartenplanung & Design",
     description:
-      "Individuelle Entwürfe, 3D-Visualisierung und Materialkonzepte — abgestimmt auf Architektur, Licht und Nutzung Ihres Grundstücks.",
+      "Individuelle Entwürfe, 3D-Visualisierung und Materialkonzepte, abgestimmt auf Architektur, Licht und Nutzung Ihres Grundstücks.",
   },
   {
     key: "pflanzung",
@@ -63,7 +63,7 @@ export const services = [
     key: "terrassenbau",
     title: "Terrassen- & Wegebau",
     description:
-      "Naturstein, Holz und Feinsteinzeug in sauberer Verlegung — für Flächen, die auch nach zehn Jahren noch überzeugen.",
+      "Naturstein, Holz und Feinsteinzeug in sauberer Verlegung, für Flächen, die auch nach zehn Jahren noch überzeugen.",
   },
   {
     key: "pflege",
@@ -81,7 +81,7 @@ export const services = [
     key: "beratung",
     title: "Beratung & Projektleitung",
     description:
-      "Ein fester Projektleiter begleitet Sie von der ersten Idee bis zur Übergabe — transparent und verbindlich.",
+      "Ein fester Projektleiter begleitet Sie von der ersten Idee bis zur Übergabe, transparent und verbindlich.",
   },
 ] as const;
 
@@ -94,12 +94,12 @@ export const processSteps = [
   {
     title: "Entwurf & Planung",
     description:
-      "Sie erhalten einen maßstäblichen Entwurf inklusive Material- und Pflanzkonzept — mit Raum für Anpassungen, bis alles passt.",
+      "Sie erhalten einen maßstäblichen Entwurf inklusive Material- und Pflanzkonzept, mit Raum für Anpassungen, bis alles passt.",
   },
   {
     title: "Umsetzung vor Ort",
     description:
-      "Unser Team setzt den Entwurf mit eigenen Fachkräften um: Erdbau, Pflasterung, Pflanzung — koordiniert aus einer Hand.",
+      "Unser Team setzt den Entwurf mit eigenen Fachkräften um: Erdbau, Pflasterung, Pflanzung, koordiniert aus einer Hand.",
   },
   {
     title: "Übergabe & Pflege",
@@ -111,7 +111,7 @@ export const processSteps = [
 export const beforeAfterProject = {
   title: "Vorgartensanierung in Eppendorf",
   description:
-    "Aus einem schlichten Rasenbeet mit vereinzelten Sträuchern wurde ein dicht bepflanzter Vorgarten mit Natursteinmauer, größerem Pflanzbeet und sauber gefasster Rasenkante — derselbe Blick auf das Haus, einmal vor und einmal nach der Umgestaltung.",
+    "Ein einfaches Pflanzbeet am Gartentor wich einer geschwungenen Natursteinmauer mit dichter Heckenpflanzung, umgesetzt vom ersten Entwurf bis zur letzten Pflanze. Derselbe Blick auf das Haus, einmal vor und einmal nach der Umgestaltung.",
 };
 
 export const galleryProjects = [
@@ -161,7 +161,7 @@ export const galleryProjects = [
     category: "Gewerbe",
     year: 2023,
     description:
-      "Symmetrische Baumreihen und ein ruhiges Wasserbecken strukturieren den Empfangsbereich eines Bürocampus — reduziert, langlebig und leicht zu unterhalten.",
+      "Symmetrische Baumreihen und ein ruhiges Wasserbecken strukturieren den Empfangsbereich eines Bürocampus: reduziert, langlebig und leicht zu unterhalten.",
   },
   {
     slug: "poolanlage-alsterufer",
@@ -169,7 +169,7 @@ export const galleryProjects = [
     category: "Poolanlagen",
     year: 2024,
     description:
-      "Zu einer klassischen Villa am Alsterufer entstand ein klar gefasster Pool mit integriertem Whirlpool, geschnittener Hecke und makellosem Rasen — zurückhaltend und zeitlos.",
+      "Zu einer klassischen Villa am Alsterufer entstand ein klar gefasster Pool mit integriertem Whirlpool, geschnittener Hecke und makellosem Rasen: zurückhaltend und zeitlos.",
   },
   {
     slug: "poolgarten-rissen",
@@ -177,7 +177,7 @@ export const galleryProjects = [
     category: "Poolanlagen",
     year: 2022,
     description:
-      "Ein weitläufiges Grundstück in Rissen erhielt eine klassische Poolanlage unter altem Baumbestand — großzügiger Rasen und viel Privatsphäre im Grünen.",
+      "Ein weitläufiges Grundstück in Rissen erhielt eine klassische Poolanlage unter altem Baumbestand, mit großzügigem Rasen und viel Privatsphäre im Grünen.",
   },
 ] as const;
 
@@ -212,7 +212,7 @@ export const team = [
   {
     name: "Merle Tönnies",
     role: "Leitung Gartenplanung",
-    bio: "Verantwortet Entwurf und Materialkonzepte — vom ersten Skizzenblatt bis zur Pflanzliste.",
+    bio: "Verantwortet Entwurf und Materialkonzepte, vom ersten Skizzenblatt bis zur Pflanzliste.",
   },
   {
     name: "Rasmus Kolb",
@@ -241,7 +241,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Der Pflegevertrag nimmt uns die Sorge komplett ab — der Garten sieht das ganze Jahr über aus wie frisch angelegt.",
+      "Der Pflegevertrag nimmt uns die Sorge komplett ab. Der Garten sieht das ganze Jahr über aus wie frisch angelegt.",
     name: "Dr. S. Brandt",
     context: "Poolanlage, Rissen",
   },
@@ -268,7 +268,7 @@ export const faqs = [
   {
     question: "Übernehmen Sie auch die laufende Pflege nach Fertigstellung?",
     answer:
-      "Ja, wir bieten saisonale Pflegeverträge an — vom gelegentlichen Rückschnitt bis zur vollständigen Gartenpflege im Jahresverlauf.",
+      "Ja, wir bieten saisonale Pflegeverträge an, vom gelegentlichen Rückschnitt bis zur vollständigen Gartenpflege im Jahresverlauf.",
   },
   {
     question: "Arbeiten Sie auch für Gewerbekunden und Verwaltungen?",
@@ -291,7 +291,7 @@ export const blogPosts = [
     author: "Merle Tönnies",
     readingTime: "4 Min. Lesezeit",
     content: [
-      "Der Spätsommer wird in vielen Gärten unterschätzt — dabei ist genau jetzt der richtige Moment, um die Weichen für das kommende Gartenjahr zu stellen. Die Böden sind nach den Sommermonaten warm, die Niederschläge nehmen wieder zu, und Stauden können bis zum ersten Frost noch kräftig einwurzeln.",
+      "Der Spätsommer wird in vielen Gärten unterschätzt. Dabei ist genau jetzt der richtige Moment, um die Weichen für das kommende Gartenjahr zu stellen. Die Böden sind nach den Sommermonaten warm, die Niederschläge nehmen wieder zu, und Stauden können bis zum ersten Frost noch kräftig einwurzeln.",
       "Besonders bewährt haben sich in unseren Projekten Präriestauden wie Rudbeckia, Sonnenhut und Ziergräser. Sie verzeihen unregelmäßiges Gießen, bringen Struktur bis in den Winter hinein und ziehen Bestäuber an, wenn viele andere Pflanzen bereits verblüht sind.",
       "Wer im nächsten Frühjahr eine möglichst frühe Blüte erleben möchte, sollte jetzt zusätzlich Blumenzwiebeln wie Krokusse, Narzissen und kleine Wildtulpen einplanen. Wir setzen sie bevorzugt in lockeren Gruppen unter Gehölzen, wo sie im Frühjahr Licht bekommen, bevor sich das Laub der Bäume schließt.",
       "Ein letzter Praxistipp aus unserem Atelier: Nach der Pflanzung im Spätsommer lohnt sich eine dünne Mulchschicht aus Laubkompost. Sie hält die Feuchtigkeit im Boden, unterdrückt Unkraut und liefert bis zum Frühjahr zusätzliche Nährstoffe für einen kräftigen Austrieb.",
@@ -307,21 +307,21 @@ export const blogPosts = [
     content: [
       "Kleine Stadtgärten und Dachterrassen stellen andere Anforderungen als ein weitläufiges Grundstück: begrenzter Wurzelraum, mehr Wind, stärkere Aufheizung durch umliegende Fassaden. Wer hier dauerhaft Freude an seiner Bepflanzung haben möchte, sollte robuste, trockenheitsverträgliche Arten bevorzugen.",
       "In unseren Hamburger Projekten setzen wir häufig auf Lavendel, Fetthenne, Gräser wie das Federborstengras sowie mediterrane Kräuter. Sie kommen mit sommerlicher Trockenheit zurecht und benötigen deutlich weniger Schnitt- und Gießaufwand als klassische Beetstauden.",
-      "Für schattigere Innenhöfe empfehlen wir Funkien, Farne und Waldgräser in Kombination mit immergrünen Gehölzen wie Kirschlorbeer oder Eibe — sie sorgen auch im Winter für ein grünes Grundgerüst, wenn die Terrasse sonst kahl wirken würde.",
-      "Ein Pflegevertrag mit zwei bis drei Terminen im Jahr reicht bei dieser Pflanzenauswahl in der Regel aus, um ein gepflegtes Bild über alle Jahreszeiten zu erhalten — ideal für Berufstätige und Gewerbeflächen ohne eigenes Pflegepersonal.",
+      "Für schattigere Innenhöfe empfehlen wir Funkien, Farne und Waldgräser in Kombination mit immergrünen Gehölzen wie Kirschlorbeer oder Eibe. Sie sorgen auch im Winter für ein grünes Grundgerüst, wenn die Terrasse sonst kahl wirken würde.",
+      "Ein Pflegevertrag mit zwei bis drei Terminen im Jahr reicht bei dieser Pflanzenauswahl in der Regel aus, um ein gepflegtes Bild über alle Jahreszeiten zu erhalten, ideal für Berufstätige und Gewerbeflächen ohne eigenes Pflegepersonal.",
     ],
   },
   {
     slug: "herbstpflanzung-gehoelze",
     title: "So gelingt die Herbstpflanzung",
-    excerpt: "Warum der Herbst die beste Pflanzzeit für Gehölze ist — und worauf es dabei ankommt.",
+    excerpt: "Warum der Herbst die beste Pflanzzeit für Gehölze ist und worauf es dabei ankommt.",
     date: "3. März 2026",
     author: "Rasmus Kolb",
     readingTime: "5 Min. Lesezeit",
     content: [
-      "Viele Gartenbesitzer pflanzen instinktiv im Frühjahr — dabei ist der Herbst für die meisten Gehölze der deutlich bessere Zeitpunkt. Der Boden ist noch warm genug für Wurzelwachstum, während die kühlere Luft den Wasserbedarf der Pflanze senkt. Das Ergebnis: Bäume und Sträucher wurzeln bis zum Frühjahr bereits kräftig ein und starten mit einem klaren Vorsprung in die Saison.",
-      "Besonders wurzelnackte Gehölze — etwa Hecken- und Obstpflanzen — sollten ausschließlich im Herbst oder zeitigen Frühjahr gepflanzt werden, solange sie sich in der sogenannten Vegetationsruhe befinden. Containerware ist zwar ganzjährig pflanzbar, entwickelt sich im Herbst gesetzt aber erfahrungsgemäß robuster.",
-      "Bei der Pflanzung selbst kommt es auf ein ausreichend großes Pflanzloch, aufgelockerten Untergrund und einen stabilen Dreibock zur Stützung an — gerade an windexponierten Hamburger Standorten ein wichtiger Faktor, damit sich frisch gesetzte Bäume nicht lockern.",
+      "Viele Gartenbesitzer pflanzen instinktiv im Frühjahr. Dabei ist der Herbst für die meisten Gehölze der deutlich bessere Zeitpunkt. Der Boden ist noch warm genug für Wurzelwachstum, während die kühlere Luft den Wasserbedarf der Pflanze senkt. Das Ergebnis: Bäume und Sträucher wurzeln bis zum Frühjahr bereits kräftig ein und starten mit einem klaren Vorsprung in die Saison.",
+      "Besonders wurzelnackte Gehölze, etwa Hecken- und Obstpflanzen, sollten ausschließlich im Herbst oder zeitigen Frühjahr gepflanzt werden, solange sie sich in der sogenannten Vegetationsruhe befinden. Containerware ist zwar ganzjährig pflanzbar, entwickelt sich im Herbst gesetzt aber erfahrungsgemäß robuster.",
+      "Bei der Pflanzung selbst kommt es auf ein ausreichend großes Pflanzloch, aufgelockerten Untergrund und einen stabilen Dreibock zur Stützung an, gerade an windexponierten Hamburger Standorten ein wichtiger Faktor, damit sich frisch gesetzte Bäume nicht lockern.",
       "Bis zum ersten Frost sollte regelmäßig gewässert werden, auch wenn die Pflanze noch keine Blätter trägt: Die Wurzeln wachsen weiter, solange der Boden nicht gefroren ist. Eine Mulchschicht schützt zusätzlich vor Kahlfrösten und hält die Feuchtigkeit im Wurzelbereich.",
     ],
   },
@@ -333,7 +333,7 @@ export const locations = [
     area: "Hamburg-Othmarschen",
     isMain: true,
     description:
-      "Unser Hauptsitz mit Planungsatelier, Materiallager und Gärtnerei liegt zwischen den Villen am Elbhang — hier laufen alle Projekte zusammen.",
+      "Unser Hauptsitz mit Planungsatelier, Materiallager und Gärtnerei liegt zwischen den Villen am Elbhang. Hier laufen alle Projekte zusammen.",
   },
   {
     name: "Standort Winterhude",

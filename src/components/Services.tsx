@@ -10,7 +10,7 @@ export default function Services() {
         <Reveal>
           <p className="eyebrow text-brass-dark">// Leistungen</p>
           <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-ink sm:text-5xl">
-            Ein Team, alle Gewerke — von der Idee bis zur letzten Pflanze.
+            Ein Team, alle Gewerke, von der Idee bis zur letzten Pflanze.
           </h2>
         </Reveal>
 

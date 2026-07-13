@@ -12,7 +12,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const title = "ELBGRÜN Gartenmanufaktur — Gärten mit Haltung | Demo-Website";
+const title = "ELBGRÜN Gartenmanufaktur: Gärten mit Haltung | Demo-Website";
 const description =
   "Demo-Website für Garten- und Landschaftsbau: Planung, Anlage und Pflege exklusiver Privat- und Gewerbegärten in Hamburg. Diese Seite ist eine Agentur-Demo und kein echtes Unternehmen.";
 

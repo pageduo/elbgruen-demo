@@ -81,7 +81,7 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col gap-2 border-t border-paper/10 pt-8 text-xs text-paper/40 sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} {company.fullName}</p>
-          <p>Demo-Vorlage für Akquisezwecke — kein echtes Unternehmen, keine echten Leistungen.</p>
+          <p>Demo-Vorlage für Akquisezwecke, kein echtes Unternehmen, keine echten Leistungen.</p>
           <a href="/api/auth/logout" className="hover:text-paper/70">
             Abmelden
           </a>

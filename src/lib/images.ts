@@ -6,7 +6,7 @@ function unsplash(id: string, w = 1600) {
 }
 
 export const img = {
-  hero: unsplash("1643063231577-959abf98b59c", 2000),
+  hero: unsplash("1776757980912-2a92d733809c", 2000),
 
   services: {
     planung: unsplash("1773387708943-ca6b3696a1d4"),
@@ -35,9 +35,12 @@ export const img = {
     { src: unsplash("1635122212082-c4b6f108f36a"), category: "Poolanlagen" },
   ],
 
+  // Lokal zugeschnitten (Originalquelle: Unsplash, echtes Vorher/Nachher-Paar
+  // desselben Hauses). Ausschnitt bewusst gewählt, damit Vorher und Nachher
+  // exakt denselben Bildausschnitt zeigen.
   beforeAfter: {
-    before: unsplash("1738197382285-a17ccf5d1daf"),
-    after: unsplash("1738193830098-2d92352a1856"),
+    before: "/images/vorher-nachher-vorher.jpg",
+    after: "/images/vorher-nachher-nachher.jpg",
   },
 
   team: [

@@ -17,7 +17,7 @@ export default function LocationsMap() {
         <Reveal>
           <p className="eyebrow text-brass-light">// Einzugsgebiet</p>
           <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-paper sm:text-5xl">
-            Zuhause in Hamburg — im Einsatz in der ganzen Region.
+            Zuhause in Hamburg, im Einsatz in der ganzen Region.
           </h2>
         </Reveal>
 

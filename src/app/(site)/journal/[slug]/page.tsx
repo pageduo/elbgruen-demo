@@ -16,7 +16,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
-  return { title: `${post.title} — ELBGRÜN Journal (Demo)` };
+  return { title: `${post.title} | ELBGRÜN Journal (Demo)` };
 }
 
 export default async function JournalPostPage({

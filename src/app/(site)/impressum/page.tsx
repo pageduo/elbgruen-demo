@@ -3,7 +3,7 @@ import LegalHero from "@/components/LegalHero";
 import { company } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Impressum (Platzhalter) — ELBGRÜN Demo",
+  title: "Impressum (Platzhalter) | ELBGRÜN Demo",
 };
 
 export default function ImpressumPage() {
