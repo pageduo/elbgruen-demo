@@ -6,7 +6,7 @@ function unsplash(id: string, w = 1600) {
 }
 
 export const img = {
-  hero: unsplash("1776757980912-2a92d733809c", 2000),
+  hero: unsplash("1781438150201-50aae7557825", 2000),
 
   services: {
     planung: unsplash("1773387708943-ca6b3696a1d4"),
@@ -36,8 +36,7 @@ export const img = {
   ],
 
   // Lokal zugeschnitten (Originalquelle: Unsplash, echtes Vorher/Nachher-Paar
-  // desselben Hauses). Ausschnitt bewusst gewählt, damit Vorher und Nachher
-  // exakt denselben Bildausschnitt zeigen.
+  // desselben Hauses, erkennbar an Fensterläden und rotem Fächerahorn).
   beforeAfter: {
     before: "/images/vorher-nachher-vorher.jpg",
     after: "/images/vorher-nachher-nachher.jpg",

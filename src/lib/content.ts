@@ -111,7 +111,7 @@ export const processSteps = [
 export const beforeAfterProject = {
   title: "Vorgartensanierung in Eppendorf",
   description:
-    "Ein einfaches Pflanzbeet am Gartentor wich einer geschwungenen Natursteinmauer mit dichter Heckenpflanzung, umgesetzt vom ersten Entwurf bis zur letzten Pflanze. Derselbe Blick auf das Haus, einmal vor und einmal nach der Umgestaltung.",
+    "Ein einfaches Pflanzbeet ohne Struktur wich einer geschwungenen Natursteinmauer mit dichter Heckenpflanzung, umgesetzt vom ersten Entwurf bis zur letzten Pflanze. Derselbe Gartenbereich, einmal vor und einmal nach der Umgestaltung.",
 };
 
 export const galleryProjects = [
