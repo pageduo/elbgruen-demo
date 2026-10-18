@@ -12,6 +12,9 @@ export default function Testimonials() {
           <h2 className="mt-4 max-w-2xl font-display text-3xl font-medium leading-tight text-ink sm:text-5xl">
             Was unsere Kunden über die Zusammenarbeit sagen.
           </h2>
+          {/* Eine Sammelzeile statt eines Zusatzes an jedem Zitat: Der
+              Hinweis steht einmal gut lesbar, statt dreimal klein. */}
+          <p className="mt-4 text-sm text-stone">Alle Stimmen auf dieser Seite sind fiktiv.</p>
         </Reveal>
 
         <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-3">

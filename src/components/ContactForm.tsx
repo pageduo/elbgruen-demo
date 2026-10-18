@@ -6,19 +6,32 @@ import Link from "next/link";
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
 
+  // Nichts verlaesst den Browser: kein fetch, kein mailto, keine
+  // Speicherung. reset() leert die Felder, damit die Eingaben nicht
+  // im Formular stehen bleiben.
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    e.currentTarget.reset();
     setSent(true);
   };
 
   if (sent) {
     return (
       <div className="flex h-full flex-col items-center justify-center gap-3 rounded-3xl bg-forest p-10 text-center text-paper">
-        <p className="font-display text-2xl font-medium">Vielen Dank!</p>
-        <p className="max-w-sm text-sm leading-relaxed text-paper/70">
-          Dies ist eine Demo-Website ohne echten Formularversand. In der echten Umsetzung würde
-          Ihre Anfrage jetzt bei uns eingehen.
+        <p className="font-display text-2xl font-medium">
+          Demo: Es wurden keine Daten übermittelt.
         </p>
+        <p className="max-w-sm text-sm leading-relaxed text-paper/70">
+          So sähe an dieser Stelle die Bestätigung aus. In dieser Vorlage verlässt Ihre Eingabe
+          den Browser nicht: Sie wird weder versendet noch gespeichert.
+        </p>
+        <button
+          type="button"
+          onClick={() => setSent(false)}
+          className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-brass-light underline underline-offset-4"
+        >
+          Formular erneut anzeigen
+        </button>
       </div>
     );
   }

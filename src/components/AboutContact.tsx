@@ -28,7 +28,7 @@ export default function AboutContact() {
               />
             </div>
             <p className="text-base leading-relaxed text-stone">
-              {company.usp} Was {company.founded} als kleines Ein-Mann-Atelier an der Elbchaussee
+              {company.usp} Was {company.founded} als kleines Ein-Mann-Atelier am Elbhang
               begann, ist heute ein 14-köpfiges Team aus Landschaftsarchitekt:innen,
               Gärtner:innen und Handwerker:innen. Geblieben ist der Anspruch: jeder Garten soll
               wirken, als hätte es ihn schon immer gegeben.
@@ -46,9 +46,7 @@ export default function AboutContact() {
               <div>
                 <p className="eyebrow mb-2 text-stone">Kontakt</p>
                 <p className="text-sm leading-relaxed text-ink">
-                  <a href={company.phoneHref} className="block hover:text-brass-dark">
-                    {company.phone}
-                  </a>
+                  <span className="block">{company.phone}</span>
                   <a href={`mailto:${company.email}`} className="block hover:text-brass-dark">
                     {company.email}
                   </a>
@@ -69,7 +67,10 @@ export default function AboutContact() {
 
             <div>
               <p className="eyebrow mb-3 text-stone">Anfahrt</p>
-              <MapEmbed />
+              <MapEmbed
+                ort={`${company.address.zip} ${company.address.city}`}
+                title={`Standort von ${company.fullName} (fiktiv)`}
+              />
             </div>
           </Reveal>
 

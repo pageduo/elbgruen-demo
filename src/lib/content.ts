@@ -1,3 +1,5 @@
+import { DEMO_SLUG } from "./pageduo";
+
 export const company = {
   name: "ELBGRÜN",
   fullName: "ELBGRÜN Gartenmanufaktur",
@@ -7,12 +9,21 @@ export const company = {
   subline:
     "Landschaftsarchitektur und Gartenbau für anspruchsvolle Privat- und Gewerbeflächen in Hamburg und Umgebung.",
   usp: "Planung und Ausführung aus einer Hand, von der ersten Skizze bis zur letzten Pflanze.",
-  phone: "+49 40 736 214 80",
-  phoneHref: "tel:+494073621480",
-  email: "atelier@elbgruen-demo.de",
+  /*
+   * Erfunden reicht nicht, erfunden muss auch unerreichbar sein. Die
+   * frueheren Werte (Elbchaussee 118, eine Hamburger Rufnummer, eine
+   * .de-Domain) sahen echt aus, weil sie echt aussehen sollten - und genau
+   * deshalb haetten sie irgendwann jemanden getroffen, den es wirklich gibt.
+   *
+   * `.example` ist nach RFC 2606 reserviert und wird nie vergeben, 20000 ist
+   * keine vergebene Postleitzahl, und die Rufnummer besteht aus Nullen. Sie
+   * steht ohne tel:-Link da, damit sie niemand versehentlich waehlt.
+   */
+  phone: "+49 (0)40 000 000-00",
+  email: `muster@${DEMO_SLUG}.example`,
   address: {
-    street: "Elbchaussee 118",
-    zip: "22763",
+    street: "Musterstraße 1",
+    zip: "20000",
     city: "Hamburg",
   },
   hours: [
@@ -247,11 +258,20 @@ export const testimonials = [
   },
 ] as const;
 
+/*
+ * Hier standen bis zur Anonymisierung der "Deutsche
+ * Landschaftsgaertner-Preis", der "Hamburger Unternehmerpreis" und eine
+ * Mitgliedschaft im Bundesverband Garten-, Landschafts- und Sportplatzbau.
+ * Das sind echte Preise und ein echter Verband - einem erfundenen Betrieb
+ * zugeschrieben ist das keine Auszeichnung, sondern eine falsche Behauptung
+ * mit fremdem Namen. Die Platzhalter zeigen dieselbe Gestaltung, ohne
+ * jemanden zu vereinnahmen.
+ */
 export const awards = [
-  { label: "Deutscher Landschaftsgärtner-Preis", detail: "Auszeichnung 2023" },
-  { label: "Hamburger Unternehmerpreis", detail: "Finalist 2022" },
-  { label: "Mitglied Bundesverband Garten-, Landschafts- und Sportplatzbau", detail: "seit 2009" },
-  { label: "„Beste Adressen Hamburg“", detail: "Presse-Empfehlung 2024" },
+  { label: "Auszeichnung (Platzhalter)", detail: "Beispielpreis 2023" },
+  { label: "Auszeichnung (Platzhalter)", detail: "Finalist 2022" },
+  { label: "Verbandsmitgliedschaft (Platzhalter)", detail: "seit 2009" },
+  { label: "Presse-Empfehlung (Platzhalter)", detail: "Beispielmedium 2024" },
 ];
 
 export const faqs = [
@@ -329,11 +349,11 @@ export const blogPosts = [
 
 export const locations = [
   {
-    name: "Atelier Elbchaussee",
+    name: "Atelier Hauptsitz",
     area: "Hamburg-Othmarschen",
     isMain: true,
     description:
-      "Unser Hauptsitz mit Planungsatelier, Materiallager und Gärtnerei liegt zwischen den Villen am Elbhang. Hier laufen alle Projekte zusammen.",
+      "Unser Hauptsitz mit Planungsatelier, Materiallager und Gärtnerei. Hier laufen alle Projekte zusammen.",
   },
   {
     name: "Standort Winterhude",
