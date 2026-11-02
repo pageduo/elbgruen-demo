@@ -126,6 +126,28 @@ Keine. Die Symbole sind Inline-SVG im Quelltext. 🟢
 
 ## Zusätzliche Prüfungen
 
+### Nachtrag vom 02.11.2026
+
+Drei Punkte aus dem Prüfauftrag waren im ersten Durchgang nicht ausdrücklich
+abgearbeitet. Hier nachgeholt:
+
+**CSS-Hintergrundbilder.** Keine. Die Flächen sind Farbverläufe, keine Bilder. 🟢
+
+**`og:image`.** Die `metadata.openGraph` dieser Demo enthält **keinen** `images`-Eintrag, und
+es liegt weder `opengraph-image.*` noch `twitter-image.*` im Projekt. Beim
+Teilen entsteht also eine Vorschau **ohne Bild**. Kein Medium, kein Befund —
+aber ein Hinweis fürs Marketing, falls die Demos je geteilt werden sollen.
+
+**Git-Historie je Medium.** Die Datei-Historie wurde für jede im Repo liegende Bilddatei abgefragt
+(`git log --diff-filter=A --follow`). Sie nennt Datum und Commit-Nachricht des
+Hinzufügens, aber in keinem Fall eine Quelle.
+
+Für die beiden roten Fotos ist das Ergebnis: beide kamen am 13.07.2026 mit
+Commit `c2f917f` herein, Nachricht „Refresh hero and before/after imagery,
+reduce AI writing tells“. Das ist **kein** Herkunftsnachweis. Der zweite Teil
+der Nachricht betrifft Texte, nicht Bilder — er lässt die Frage, ob die Bilder
+selbst KI-erzeugt sind, eher offener als vorher. Einstufung bleibt 🔴.
+
 ### Öffentliches Repository und Weitergabe der Originaldateien
 
 `pageduo/elbgruen-demo` ist auf GitHub **öffentlich**. Jede im Repository liegende
