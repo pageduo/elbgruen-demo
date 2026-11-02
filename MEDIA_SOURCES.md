@@ -175,6 +175,87 @@ erklärung muss den Abruf benennen. Hier wurde nichts umgebaut.
 
 ---
 
+## Sichtprüfung
+
+Am 02.11.2026 nachgeholt: Jedes Motiv wurde als Kontaktbogen geladen und
+angesehen — gesucht wurde nach Wasserzeichen, sichtbaren Logos und Marken,
+erkennbaren echten Personen, erkennbaren realen Orten und nach typischen
+KI-Artefakten.
+
+**Wasserzeichen: keine, in keinem einzigen Motiv.**
+
+**KI-Artefakte: keine, die als solche belastbar wären.** Was auf den
+Kontaktbögen stellenweise flach oder posterisiert wirkt, stammt von deren
+eigener Verkleinerung und JPEG-Kompression, nicht aus den Motiven. Der
+KI-Status bleibt damit das, was er vorher war: **unklar**, weil die
+Unsplash-Fotoseiten nicht erreichbar sind. Es wurde nichts gekennzeichnet.
+
+### Was zu sehen war
+
+**Vier erkennbare reale Personen als namentliches Team** und — schwerer
+wiegend — **drei weitere als `testimonialAvatars`**, also mit einem erfundenen
+Kundenzitat verknüpft. Einer fremden Person ein Lob in den Mund zu legen, das
+sie nie gesagt hat, geht über die bloße Abbildung hinaus.
+
+**Erkennbare Wahrzeichen:** `locations` zeigt die **Außenalster mit der
+Elbphilharmonie** und den Hauptkirchtürmen, ein weiteres Motiv ein konkretes
+historisches Backsteingebäude, ein drittes eine einzelne Villa. Für ebenerdige
+Aufnahmen greift die Panoramafreiheit nach § 59 UrhG; eine der
+`blog`-Aufnahmen ist jedoch eine **Luftaufnahme über Wohnbebauung**, und dort
+greift sie nach BGH-Rechtsprechung gerade nicht.
+
+**Die beiden roten Dateien im Repo sind auch inhaltlich auffällig:**
+`vorher-nachher-vorher.jpg` und `-nachher.jpg` zeigen einen Vorgarten mit
+Holzschindelhaus, Fensterläden und Maschendrahtzaun — **erkennbar
+nordamerikanisch**, nicht norddeutsch. Für die Vorher-Nachher-Strecke eines
+Hamburger Gartenbaubetriebs passt das nicht, und zusammen mit der fehlenden
+Herkunft bleibt es bei 🔴.
+
+**Keine sichtbaren Fremdmarken.**
+
+### Der Befund, der aus der Sichtprüfung hervorgeht
+
+**Erkennbare reale Personen stehen als benanntes Personal dieses erfundenen
+Unternehmens.** Das ist kein Lizenz-, sondern ein Persönlichkeitsrechtsthema:
+§ 22 KUG verlangt für die Verbreitung eines Bildnisses die Einwilligung der
+abgebildeten Person. Die Unsplash-Lizenz erteilt diese Einwilligung **nicht** —
+sie regelt das Urheberrecht des Fotografen, nicht die Rechte der Abgebildeten.
+Unsplash weist selbst darauf hin, dass für Motive mit erkennbaren Personen
+keine Model-Freigabe mitgeliefert wird.
+
+Verschärfend kommt hinzu, dass die Personen hier nicht als Dekoration
+auftauchen, sondern **mit Namen und Funktion** — ein fremdes Gesicht bekommt
+eine berufliche Rolle zugeschrieben, die es nie innehatte.
+
+Nach der Ampel-Ordnung dieses Prüfauftrags bleibt das **🟡** („erkennbare
+Personen ohne geklärte Freigabe"). Nach der strengeren Ordnung des Audits der
+Hauptseite wäre es **🔴** („erkennbare echte Person ohne Einwilligung"). Diese
+Spreizung ist beabsichtigt festgehalten, nicht aufgelöst.
+
+**Empfehlung: Vor jedem echten Kundeneinsatz die Porträts durch eigene oder
+beauftragte Fotografie mit schriftlicher Freigabe ersetzen.** Für eine
+Demo-Vorlage, die als solche gekennzeichnet ist, ist das Risiko geringer, aber
+es verschwindet nicht.
+
+### Dieselben Gesichter in mehreren Demos
+
+Der Quervergleich aller Bildkennungen über die sechs Repositorys hat drei
+Motive gefunden, die in **zwei verschiedenen erfundenen Unternehmen zugleich**
+stehen:
+
+| Unsplash-ID | hier | und dort |
+|---|---|---|
+| `1580489944761-15a19d654956` | KLARSICHT, `team.kian` | ELBGRÜN, `team` |
+| `1494790108377-be9c29b29330` | KLARSICHT, `team.insa` | ELBGRÜN, `team` |
+| `1560250097-0b93528c311a` | KLARSICHT, `team.lene` | ELBGRÜN, `testimonialAvatars` |
+
+Dieselbe Person ist also in einer Demo Steuerberaterin und in der nächsten
+Landschaftsgärtnerin — im dritten Fall sogar Mitarbeiterin hier und lobende
+Kundin dort. Wer beide Demos nebeneinander sieht, erkennt das sofort. Für die
+abgebildeten Personen vervielfacht es die Zuschreibung.
+
+---
+
 ## KI-Kennzeichnung
 
 **Es wurde keine gesetzt.** Art. 50 Abs. 4 EU AI Act verlangt die Offenlegung bei
@@ -197,6 +278,7 @@ Lizenz gesondert zu prüfen.
 
 | Was | Wie viele | Warum offen |
 |---|---|---|
+| **Freigabe der abgebildeten Personen** (§ 22 KUG) | 7 | vier Team-Porträts und drei Testimonial-Gesichter — die Unsplash-Lizenz erteilt keine Model-Freigabe |
 | KI-Status der Unsplash-Motive | 34 | Fotoseite nicht erreichbar |
 | Lizenzart (frei oder Unsplash+) | 34 | dito |
 | Herkunft der beiden Vorher-Nachher-Fotos | 2 | keine Metadaten, kein Repo-Hinweis |
